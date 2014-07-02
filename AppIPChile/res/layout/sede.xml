@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget48"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#007cc4" 
+	>
+
+<TextView
+    android:id="@+id/contacto"
+    android:layout_width="fill_parent"
+    android:layout_height="156dp"
+    android:background="@drawable/tops"
+    android:gravity="center"
+    android:textColor="#000000"
+    android:textSize="25sp"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/btn2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="253dp"
+    android:layout_y="407dp"
+    android:text="Back"
+    android:textColor="#FFFFFF"
+    android:textStyle="bold" />
+
+<ImageButton
+    android:id="@+id/imageButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="11dp"
+    android:layout_y="283dp"
+    android:src="@drawable/laserena" />
+
+<ImageButton
+    android:id="@+id/imageButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="12dp"
+    android:layout_y="167dp"
+    android:src="@drawable/rancagua" />
+
+<ImageButton
+    android:id="@+id/imageButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="13dp"
+    android:layout_y="395dp"
+    android:src="@drawable/sanjoaquin" />
+
+<ImageButton
+    android:id="@+id/imageButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="11dp"
+    android:layout_y="338dp"
+    android:src="@drawable/temuco" />
+
+<ImageButton
+    android:id="@+id/imageButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="10dp"
+    android:layout_y="225dp"
+    android:src="@drawable/laserena" />
+
+</AbsoluteLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#007cc4"    
+    >
+    
+    <LinearLayout 
+	    
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="2"
+	    android:gravity="center"
+    >
+    
+	    <TextView  
+			android:id="@+id/txBienvenida"
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="156dp"
+	    	android:gravity="center"
+	    	android:background="@drawable/top"
+	    	android:textStyle="bold"
+	    	android:textSize="25sp"
+	    	android:textColor="#000000"
+	    />
+    
+    </LinearLayout>
+    
+    <TableLayout 
+	    
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+	>
+		
+		<TableRow
+			android:layout_weight="1"
+			android:gravity="center"
+			android:paddingLeft="20px"
+			android:paddingRight="20px"
+			android:paddingBottom = "10px"
+		>
+			<LinearLayout 
+			    
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:paddingRight="20px"
+		   	>
+			   	<Button
+			    	android:layout_width="wrap_content" 
+			    	android:layout_height="wrap_content" 
+			    	android:layout_weight="1"
+			    	android:background="@drawable/sede" 
+			    />
+		    </LinearLayout>
+		    
+		    <LinearLayout 
+			    
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:paddingLeft="20px"
+		   	>
+			   	
+			    <Button
+			    	android:layout_width="wrap_content" 
+			    	android:layout_height="wrap_content" 
+			    	android:layout_weight="1"
+			    	android:background="@drawable/horario" 
+		    	/>
+		    </LinearLayout>
+		    
+		    
+ 		</TableRow>
+ 		
+ 		<TableRow
+			android:layout_weight="1"
+			android:gravity="center"
+			android:paddingLeft="20px"
+			android:paddingRight="20px"
+			android:paddingTop = "20px"
+			android:paddingBottom = "10px"
+		>
+		
+			<LinearLayout 
+			   
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:paddingRight="20px"
+		   	>
+			   	<Button
+			    	android:layout_width="wrap_content" 
+			    	android:layout_height="wrap_content" 
+			    	android:layout_weight="1"
+			    	android:background="@drawable/notas" 
+			    	android:padding="20px"
+		    	/>
+		    </LinearLayout>
+		    
+		    <LinearLayout 
+			
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="center"
+			    android:paddingLeft="20px"
+		   	>
+		   	
+			   	<Button
+			    	android:layout_width="wrap_content" 
+			    	android:layout_height="wrap_content" 
+			    	android:layout_weight="1"
+			    	android:background="@drawable/contacto" 
+			    />
+		    </LinearLayout>
+		    
+ 		</TableRow>
+	
+	</TableLayout>
+    
+</LinearLayout>

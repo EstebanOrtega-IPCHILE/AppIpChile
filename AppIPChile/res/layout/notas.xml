@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget48"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#007cc4"  
+	>
+<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:text="AutoCompleteTextView" />
+
+	    >
+
+<TextView
+    android:id="@+id/contacto"
+    android:layout_width="fill_parent"
+    android:layout_height="156dp"
+    android:background="@drawable/topnota"
+    android:gravity="center"
+    android:textColor="#000000"
+    android:textSize="25sp"
+    android:textStyle="bold" />
+
+</LinearLayout>
+
+
+
+
+<Button
+    android:id="@+id/btn2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="14dp"
+    android:layout_y="405dp"
+    android:text="Back"
+    android:textColor="#FFFFFF"
+    android:textStyle="bold" />
+</AbsoluteLayout>
