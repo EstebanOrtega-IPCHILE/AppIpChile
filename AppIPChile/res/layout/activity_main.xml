@@ -1,132 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="#007cc4"    
-    >
-    
-    <LinearLayout 
-	    
-	    android:orientation="vertical"
-	    android:layout_width="fill_parent"
-	    android:layout_height="fill_parent"
-	    android:layout_weight="2"
-	    android:gravity="center"
-    >
-    
-	    <TextView  
-			android:id="@+id/txBienvenida"
-	    	android:layout_width="fill_parent" 
-	    	android:layout_height="156dp"
-	    	android:gravity="center"
-	    	android:background="@drawable/top"
-	    	android:textStyle="bold"
-	    	android:textSize="25sp"
-	    	android:textColor="#000000"
-	    />
-    
-    </LinearLayout>
-    
-    <TableLayout 
-	    
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:layout_weight="1"
-	>
-		
-		<TableRow
-			android:layout_weight="1"
-			android:gravity="center"
-			android:paddingLeft="20px"
-			android:paddingRight="20px"
-			android:paddingBottom = "10px"
-		>
-			<LinearLayout 
-			    
-			    android:orientation="vertical"
-			    android:layout_width="fill_parent"
-			    android:layout_height="fill_parent"
-			    android:layout_weight="1"
-			    android:gravity="center"
-			    android:paddingRight="20px"
-		   	>
-			   	<Button
-			    	android:layout_width="wrap_content" 
-			    	android:layout_height="wrap_content" 
-			    	android:layout_weight="1"
-			    	android:background="@drawable/sede" 
-			    />
-		    </LinearLayout>
-		    
-		    <LinearLayout 
-			    
-			    android:orientation="vertical"
-			    android:layout_width="fill_parent"
-			    android:layout_height="fill_parent"
-			    android:layout_weight="1"
-			    android:gravity="center"
-			    android:paddingLeft="20px"
-		   	>
-			   	
-			    <Button
-			    	android:layout_width="wrap_content" 
-			    	android:layout_height="wrap_content" 
-			    	android:layout_weight="1"
-			    	android:background="@drawable/horario" 
-		    	/>
-		    </LinearLayout>
-		    
-		    
- 		</TableRow>
- 		
- 		<TableRow
-			android:layout_weight="1"
-			android:gravity="center"
-			android:paddingLeft="20px"
-			android:paddingRight="20px"
-			android:paddingTop = "20px"
-			android:paddingBottom = "10px"
-		>
-		
-			<LinearLayout 
-			   
-			    android:orientation="vertical"
-			    android:layout_width="fill_parent"
-			    android:layout_height="fill_parent"
-			    android:layout_weight="1"
-			    android:gravity="center"
-			    android:paddingRight="20px"
-		   	>
-			   	<Button
-			    	android:layout_width="wrap_content" 
-			    	android:layout_height="wrap_content" 
-			    	android:layout_weight="1"
-			    	android:background="@drawable/notas" 
-			    	android:padding="20px"
-		    	/>
-		    </LinearLayout>
-		    
-		    <LinearLayout 
-			
-			    android:orientation="vertical"
-			    android:layout_width="fill_parent"
-			    android:layout_height="fill_parent"
-			    android:layout_weight="1"
-			    android:gravity="center"
-			    android:paddingLeft="20px"
-		   	>
-		   	
-			   	<Button
-			    	android:layout_width="wrap_content" 
-			    	android:layout_height="wrap_content" 
-			    	android:layout_weight="1"
-			    	android:background="@drawable/contacto" 
-			    />
-		    </LinearLayout>
-		    
- 		</TableRow>
-	
-	</TableLayout>
-    
-</LinearLayout>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#007cc4" >
+
+    <ImageView
+        android:id="@+id/ivHorario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="172dp"
+        android:layout_y="168dp"
+        android:src="@drawable/horario" />
+
+    <ImageView
+        android:id="@+id/ivContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="174dp"
+        android:layout_y="313dp"
+        android:src="@drawable/contacto" />
+
+    <ImageView
+        android:id="@+id/ivNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="313dp"
+        android:src="@drawable/notas" />
+
+    <ImageView
+        android:id="@+id/ivSede"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="168dp"
+        android:src="@drawable/sede" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="2dp"
+        android:src="@drawable/top" />
+
+</AbsoluteLayout>

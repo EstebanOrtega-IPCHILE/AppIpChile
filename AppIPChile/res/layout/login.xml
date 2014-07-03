@@ -11,7 +11,7 @@
     tools:context=".MainActivity" >
 
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/ivLogo"
         android:layout_width="243dp"
         android:layout_height="82dp"
         android:layout_x="26dp"
@@ -19,7 +19,7 @@
         android:src="@drawable/logo" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/ivSede"
         android:layout_width="178dp"
         android:layout_height="wrap_content"
         android:layout_x="70dp"
@@ -28,7 +28,7 @@
         android:src="@drawable/btnentrar" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/ivContacto"
         android:layout_width="match_parent"
         android:layout_height="267dp"
         android:layout_x="0dp"

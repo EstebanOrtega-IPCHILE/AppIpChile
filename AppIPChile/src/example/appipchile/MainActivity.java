@@ -6,6 +6,7 @@ import Negocio.BsUsuario;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
@@ -52,6 +53,10 @@ public void Conectar(View view){
     	if(bsUsuario.ValidarUsuario(usuario)== true){
 			Toast toast = Toast.makeText(this, "datos  ok", Toast.LENGTH_SHORT);
 	        toast.show();
+	        
+	        Intent i = new Intent(this, example.appipchile.Menu.class);
+	        startActivity(i);
+	        
 		}else{
 			Toast toast = Toast.makeText(this, "datos erroneos", Toast.LENGTH_SHORT);
 	        toast.show();

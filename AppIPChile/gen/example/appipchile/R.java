@@ -184,23 +184,24 @@ public final class R {
         public static final int tops=0x7f020012;
     }
     public static final class id {
-        public static final int AbsoluteLayout1=0x7f090008;
-        public static final int action_settings=0x7f090010;
-        public static final int autoCompleteTextView1=0x7f09000e;
-        public static final int btn2=0x7f090006;
-        public static final int contacto=0x7f090002;
-        public static final int etPass=0x7f09000d;
-        public static final int etUsuario=0x7f09000c;
-        public static final int imageButton1=0x7f09000f;
-        public static final int imageView1=0x7f090009;
-        public static final int imageView2=0x7f09000b;
-        public static final int imageView3=0x7f09000a;
-        public static final int txBienvenida=0x7f090000;
-        public static final int widget42=0x7f090004;
-        public static final int widget48=0x7f090001;
-        public static final int widget50=0x7f090007;
-        public static final int widget51=0x7f090005;
-        public static final int widget52=0x7f090003;
+        public static final int AbsoluteLayout1=0x7f090000;
+        public static final int action_settings=0x7f090011;
+        public static final int autoCompleteTextView1=0x7f09000f;
+        public static final int btn2=0x7f09000b;
+        public static final int contacto=0x7f090007;
+        public static final int etPass=0x7f09000e;
+        public static final int etUsuario=0x7f09000d;
+        public static final int imageButton1=0x7f090010;
+        public static final int ivContacto=0x7f090002;
+        public static final int ivHorario=0x7f090001;
+        public static final int ivLogo=0x7f090005;
+        public static final int ivNota=0x7f090003;
+        public static final int ivSede=0x7f090004;
+        public static final int widget42=0x7f090009;
+        public static final int widget48=0x7f090006;
+        public static final int widget50=0x7f09000c;
+        public static final int widget51=0x7f09000a;
+        public static final int widget52=0x7f090008;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
